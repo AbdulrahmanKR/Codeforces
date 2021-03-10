@@ -1,6 +1,8 @@
 #include <iostream>
 #include <math.h>
 
+//https://codeforces.com/problemset/problem/1041/B
+
 using namespace std;
 
 long long gcd(long long a, long long b){
