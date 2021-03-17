@@ -47,3 +47,28 @@ int main() {
     solve();
 
  }
+
+
+/* 
+Another approach
+
+void solve(){
+  int n; cin >>n;
+  long long ar[n];
+
+  for(int i=0;i<n;i++){
+     cin>>ar[i];
+     if (ar[i]<0)
+        ar[i]*=-1;
+     if (i&1)
+         ar[i]*=-1;
+
+     cout<<ar[i]<<" ";
+  }
+  cout<<endl;
+}
+
+*/
+
+
+
