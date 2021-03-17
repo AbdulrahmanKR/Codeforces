@@ -31,7 +31,7 @@ void solve(){
             ar[i+1]*=-1;
         }
     }else{
-
+      
       if (ar[i+1]-ar[i]<0){
            ar[i]*=-1;
       }
@@ -50,7 +50,7 @@ int main() {
 
 
 /* 
-Another approach
+Another approach:
 
 void solve(){
   int n; cin >>n;
